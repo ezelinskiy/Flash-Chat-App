@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865D1E152B63DC4A0085367C /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1E142B63DC4A0085367C /* MessageModel.swift */; };
+		865D1E182B63E53B0085367C /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1E162B63E53B0085367C /* MessageCell.swift */; };
+		865D1E192B63E53B0085367C /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865D1E172B63E53B0085367C /* MessageCell.xib */; };
+		865D1E1C2B6683D10085367C /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 865D1E1B2B6683D10085367C /* IQKeyboardManagerSwift */; };
 		86F146B42B624496004ACF14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146B32B624496004ACF14 /* AppDelegate.swift */; };
 		86F146B62B624496004ACF14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146B52B624496004ACF14 /* SceneDelegate.swift */; };
-		86F146B82B624496004ACF14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146B72B624496004ACF14 /* ViewController.swift */; };
 		86F146BB2B624496004ACF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F146B92B624496004ACF14 /* Main.storyboard */; };
 		86F146BD2B624498004ACF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F146BC2B624498004ACF14 /* Assets.xcassets */; };
 		86F146C02B624498004ACF14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F146BE2B624498004ACF14 /* LaunchScreen.storyboard */; };
+		86F146CC2B6246B8004ACF14 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146C82B6246B8004ACF14 /* RegisterViewController.swift */; };
+		86F146CD2B6246B8004ACF14 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146C92B6246B8004ACF14 /* ChatViewController.swift */; };
+		86F146CE2B6246B8004ACF14 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146CA2B6246B8004ACF14 /* WelcomeViewController.swift */; };
+		86F146CF2B6246B8004ACF14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146CB2B6246B8004ACF14 /* LoginViewController.swift */; };
+		86F146D62B62A937004ACF14 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146D52B62A937004ACF14 /* CLTypingLabel.swift */; };
+		86F146D82B62AB05004ACF14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86F146D72B62AB04004ACF14 /* GoogleService-Info.plist */; };
+		86F146DB2B62AC84004ACF14 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 86F146DA2B62AC84004ACF14 /* FirebaseAuth */; };
+		86F146DD2B62AC84004ACF14 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 86F146DC2B62AC84004ACF14 /* FirebaseFirestore */; };
+		86F146DF2B62AC84004ACF14 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 86F146DE2B62AC84004ACF14 /* FirebaseFirestoreSwift */; };
+		86F146E12B63D903004ACF14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F146E02B63D902004ACF14 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		865D1E142B63DC4A0085367C /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		865D1E162B63E53B0085367C /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		865D1E172B63E53B0085367C /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		86F146B02B624496004ACF14 /* Flash-Chat-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash-Chat-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F146B32B624496004ACF14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F146B52B624496004ACF14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		86F146B72B624496004ACF14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86F146BA2B624496004ACF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86F146BC2B624498004ACF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F146BF2B624498004ACF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F146C12B624498004ACF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F146C82B6246B8004ACF14 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		86F146C92B6246B8004ACF14 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		86F146CA2B6246B8004ACF14 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		86F146CB2B6246B8004ACF14 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86F146D52B62A937004ACF14 /* CLTypingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTypingLabel.swift; sourceTree = "<group>"; };
+		86F146D72B62AB04004ACF14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86F146E02B63D902004ACF14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +53,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F146DB2B62AC84004ACF14 /* FirebaseAuth in Frameworks */,
+				865D1E1C2B6683D10085367C /* IQKeyboardManagerSwift in Frameworks */,
+				86F146DD2B62AC84004ACF14 /* FirebaseFirestore in Frameworks */,
+				86F146DF2B62AC84004ACF14 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		865D1E122B63DC2F0085367C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				865D1E162B63E53B0085367C /* MessageCell.swift */,
+				865D1E172B63E53B0085367C /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865D1E132B63DC380085367C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				865D1E142B63DC4A0085367C /* MessageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		86F146A72B624496004ACF14 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +99,39 @@
 		86F146B22B624496004ACF14 /* Flash-Chat-App */ = {
 			isa = PBXGroup;
 			children = (
+				865D1E132B63DC380085367C /* Models */,
+				865D1E122B63DC2F0085367C /* Views */,
+				86F146C72B624676004ACF14 /* Controller */,
+				86F146D42B62A937004ACF14 /* Helpers */,
 				86F146B32B624496004ACF14 /* AppDelegate.swift */,
 				86F146B52B624496004ACF14 /* SceneDelegate.swift */,
-				86F146B72B624496004ACF14 /* ViewController.swift */,
 				86F146B92B624496004ACF14 /* Main.storyboard */,
 				86F146BC2B624498004ACF14 /* Assets.xcassets */,
 				86F146BE2B624498004ACF14 /* LaunchScreen.storyboard */,
 				86F146C12B624498004ACF14 /* Info.plist */,
+				86F146D72B62AB04004ACF14 /* GoogleService-Info.plist */,
+				86F146E02B63D902004ACF14 /* Constants.swift */,
 			);
 			path = "Flash-Chat-App";
+			sourceTree = "<group>";
+		};
+		86F146C72B624676004ACF14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86F146C92B6246B8004ACF14 /* ChatViewController.swift */,
+				86F146CB2B6246B8004ACF14 /* LoginViewController.swift */,
+				86F146C82B6246B8004ACF14 /* RegisterViewController.swift */,
+				86F146CA2B6246B8004ACF14 /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		86F146D42B62A937004ACF14 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				86F146D52B62A937004ACF14 /* CLTypingLabel.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,12 @@
 			dependencies = (
 			);
 			name = "Flash-Chat-App";
+			packageProductDependencies = (
+				86F146DA2B62AC84004ACF14 /* FirebaseAuth */,
+				86F146DC2B62AC84004ACF14 /* FirebaseFirestore */,
+				86F146DE2B62AC84004ACF14 /* FirebaseFirestoreSwift */,
+				865D1E1B2B6683D10085367C /* IQKeyboardManagerSwift */,
+			);
 			productName = "Flash-Chat-App";
 			productReference = 86F146B02B624496004ACF14 /* Flash-Chat-App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,10 @@
 				Base,
 			);
 			mainGroup = 86F146A72B624496004ACF14;
+			packageReferences = (
+				86F146D92B62AC84004ACF14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				865D1E1A2B6683D10085367C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 86F146B12B624496004ACF14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865D1E192B63E53B0085367C /* MessageCell.xib in Resources */,
 				86F146C02B624498004ACF14 /* LaunchScreen.storyboard in Resources */,
+				86F146D82B62AB05004ACF14 /* GoogleService-Info.plist in Resources */,
 				86F146BD2B624498004ACF14 /* Assets.xcassets in Resources */,
 				86F146BB2B624496004ACF14 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +217,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F146B82B624496004ACF14 /* ViewController.swift in Sources */,
+				86F146CF2B6246B8004ACF14 /* LoginViewController.swift in Sources */,
+				865D1E182B63E53B0085367C /* MessageCell.swift in Sources */,
 				86F146B42B624496004ACF14 /* AppDelegate.swift in Sources */,
 				86F146B62B624496004ACF14 /* SceneDelegate.swift in Sources */,
+				86F146D62B62A937004ACF14 /* CLTypingLabel.swift in Sources */,
+				86F146CE2B6246B8004ACF14 /* WelcomeViewController.swift in Sources */,
+				86F146CD2B6246B8004ACF14 /* ChatViewController.swift in Sources */,
+				86F146CC2B6246B8004ACF14 /* RegisterViewController.swift in Sources */,
+				865D1E152B63DC4A0085367C /* MessageModel.swift in Sources */,
+				86F146E12B63D903004ACF14 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +381,7 @@
 				DEVELOPMENT_TEAM = NFTB3H74LP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Flash-Chat-App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flash Chat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -327,6 +414,7 @@
 				DEVELOPMENT_TEAM = NFTB3H74LP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Flash-Chat-App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flash Chat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -371,6 +459,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		865D1E1A2B6683D10085367C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		86F146D92B62AC84004ACF14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		865D1E1B2B6683D10085367C /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 865D1E1A2B6683D10085367C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		86F146DA2B62AC84004ACF14 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86F146D92B62AC84004ACF14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		86F146DC2B62AC84004ACF14 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86F146D92B62AC84004ACF14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		86F146DE2B62AC84004ACF14 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86F146D92B62AC84004ACF14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86F146A82B624496004ACF14 /* Project object */;
 }
