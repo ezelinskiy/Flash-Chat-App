@@ -15,4 +15,5 @@ Flash Chat is an internet based messaging app. It is using a service called Fire
 ## Example what the application do
 
 ![Flash Chat example of work.](Documentation/flashchat_screenrecord_1.gif)
+
 ![Flash Chat example of work.](Documentation/flashchat_screenrecord_2.gif)
